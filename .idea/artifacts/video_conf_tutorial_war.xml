@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="video-conf-tutorial:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>video-conf-tutorial</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="video-conf-tutorial-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="video-conf-tutorial:war exploded" />
+    </root>
+  </artifact>
+</component>
